@@ -1,0 +1,50 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: auto;
+}
+
+header {
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 100%;
+    margin: auto 0;
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 80px;
+    padding: 20px 0 20px 0;
+}
+
+nav a {
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+@media(max-width: 400px) {
+    nav {
+        display: none;
+    }
+}
+
