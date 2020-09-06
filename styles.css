@@ -81,3 +81,83 @@ nav a {
         padding-bottom: 6em;
     }
 }
+
+/* About / Tribute Section */
+
+.tribute-container {
+    display: grid;
+    grid-template-columns: 27% auto;
+    justify-content: space-evenly;
+}
+
+#image {
+    padding-top: 30%;
+    align-items: center;
+}
+
+#tribute-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.button-amazon {
+    margin-right: 20px;
+      background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.button-amazon:hover {
+    background-color: white;
+    color: #146eb4; /* Amazon Blue */
+    border: 1px solid #1463b4;
+}
+
+.button-website {
+    margin-right: 20px;
+      background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.button-website:hover {
+    background-color: white;
+    color: #8B0000; /* Dark Red */
+    border: 1px solid #8B0000;
+}
+
+.button-wikipedia {
+    margin-right: 20px;
+      background-color: #000000; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.button-wikipedia:hover {
+    background-color: white;
+    color: #A9A9A9; /* Dark Grey */
+    border: 1px solid #A9A9A9;
+}
