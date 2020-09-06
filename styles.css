@@ -56,7 +56,7 @@ nav a {
     font-size: 70px;
     text-align: center;
     margin: auto;
-    padding-top: 3em;
+    padding-top: 4em;
 }
 
 .tribute-beloved {
@@ -70,7 +70,7 @@ nav a {
 }
 
 .title-beloved {
-    padding-bottom: 12em;
+    padding-bottom: 15em;
 }
 
 @media(max-width: 400px) {
@@ -88,6 +88,7 @@ nav a {
     display: grid;
     grid-template-columns: 27% auto;
     justify-content: space-evenly;
+    padding-top: 5%;
 }
 
 #image {
@@ -98,12 +99,12 @@ nav a {
 #tribute-button {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 90px;
+    padding-bottom: 100px;
 }
 
 .button-amazon {
-    margin-right: 20px;
+    margin-right: 25px;
       background-color: #000000; 
   border: none;
   color: white;
@@ -123,7 +124,7 @@ nav a {
 }
 
 .button-website {
-    margin-right: 20px;
+    margin-right: 25px;
       background-color: #000000; 
   border: none;
   color: white;
@@ -143,7 +144,7 @@ nav a {
 }
 
 .button-wikipedia {
-    margin-right: 20px;
+    margin-right: 25px;
       background-color: #000000; 
   border: none;
   color: white;
@@ -160,4 +161,15 @@ nav a {
     background-color: white;
     color: #A9A9A9; /* Dark Grey */
     border: 1px solid #A9A9A9;
+}
+
+/* Tribute Quote */
+
+.tribute-quote {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+    padding: 1em 0 1em 0;
 }
