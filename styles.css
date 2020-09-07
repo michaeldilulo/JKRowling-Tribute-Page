@@ -1,175 +1,46 @@
-body {
-    font-family: 'Rubik', sans-serif;
-    margin: auto;
-}
-
-/*  CSS Navbar */
-
-header {
+/* Tribute Navbar */
+.tribute-navbar {
+    overflow: hidden;
     background-color: #000000;
-    /* position: fixed; */
-    width: 100%;
+    position: relative;
 }
 
-header::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.container {
-    width: 100%;
-    margin: auto 0;
-}
-
-nav {
-    float: left;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-nav li {
-    display: inline-block;
-    margin-left: 80px;
-    padding: 20px 0 20px 0;
-}
-
-nav a {
+.tribute-navbar a {
     color: white;
-    font-size: 19px;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+}
+
+.tribute-navbar a.icon {
+    background-color: #000000;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.tribute-navbar a:hover {
+    color: white;
+}
+
+.active {
+    background-color: #000000;
 }
 
 @media(max-width: 400px) {
-    nav {
+    .tribute-navbar #tributeLinks{
         display: none;
     }
-}
-
-/* CSS #Title (name and titles) */
-
-#title {
-    font-size: 70px;
-    text-align: center;
-    margin: auto;
-    padding-top: 4em;
-}
-
-.tribute-beloved {
-    font-size: 25px;
-    text-align: center;
-    color: white;
-}
-
-.title-container {
-    background-color: #000000;
-}
-
-.title-beloved {
-    padding-bottom: 15em;
-}
-
-@media(max-width: 400px) {
-    #title {
-        padding-top: 1em;
-    }
-    .title-beloved {
-        padding-bottom: 6em;
+    .tribute-navbar a {
+        display: block;
     }
 }
 
-/* About / Tribute Section */
+@media(min-width: 401px) {
+    .tribute-navbar a.icon {
+        display: none;
+    }
 
-.tribute-container {
-    display: grid;
-    grid-template-columns: 27% auto;
-    justify-content: space-evenly;
-    padding-top: 5%;
-}
-
-#image {
-    padding-top: 30%;
-    align-items: center;
-}
-
-#tribute-button {
-    display: flex;
-    justify-content: center;
-    padding-top: 90px;
-    padding-bottom: 100px;
-}
-
-.button-amazon {
-    margin-right: 25px;
-      background-color: #000000; 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 5px;
-  transition-duration: 0.4s;
-}
-
-.button-amazon:hover {
-    background-color: white;
-    color: #146eb4; /* Amazon Blue */
-    border: 1px solid #1463b4;
-}
-
-.button-website {
-    margin-right: 25px;
-      background-color: #000000; 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 5px;
-  transition-duration: 0.4s;
-}
-
-.button-website:hover {
-    background-color: white;
-    color: #8B0000; /* Dark Red */
-    border: 1px solid #8B0000;
-}
-
-.button-wikipedia {
-    margin-right: 25px;
-      background-color: #000000; 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 5px;
-  transition-duration: 0.4s;
-}
-
-.button-wikipedia:hover {
-    background-color: white;
-    color: #A9A9A9; /* Dark Grey */
-    border: 1px solid #A9A9A9;
-}
-
-/* Tribute Quote */
-
-.tribute-quote {
-    font-size: 28px;
-    display: flex;
-    justify-content: center;
-    background-color: #000000;
-    color: white;
-    padding: 1em 0 1em 0;
-}
+} 
