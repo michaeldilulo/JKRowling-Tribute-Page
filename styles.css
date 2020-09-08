@@ -1,8 +1,15 @@
 /* Tribute Navbar */
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: auto;
+}
+
 .tribute-navbar {
     overflow: hidden;
     background-color: #000000;
-    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .tribute-navbar a {
@@ -28,6 +35,9 @@
 .active {
     background-color: #000000;
 }
+.tribute-navbar #tributeLinks {
+    display: inline-block;
+}
 
 @media(max-width: 400px) {
     .tribute-navbar #tributeLinks{
@@ -36,11 +46,88 @@
     .tribute-navbar a {
         display: block;
     }
+    .tribute-name {
+    font-size: 70px;
+    text-align: center;
+    margin: auto;
+    padding-top: 1em;
+    color: white;
+}
+    .tribute-titles {
+        padding-bottom: 2em;
+        margin-bottom: 1em;
+    }
 }
 
-@media(min-width: 401px) {
-    .tribute-navbar a.icon {
-        display: none;
-    }
 
+@media(min-width: 401px) {
+.tribute-navbar a.icon {
+    display: none;
+    }
+    .tribute-navbar #tributeLinks {
+    display: inline-block;
+    }
+.image {
+    max-height: 75%;
+    max-width: 58%;
+    }
+#tributeInfo {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    justify-content: center;
+    padding-top: 10%;
+    align-items: center;
+    }
+.tribute-name {
+    font-size: 70px;
+    text-align: center;
+    margin: auto;
+    padding-top: 4em;
+    color: white;
+}
+
+.tribute-titles {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding-bottom: 15em;
+}
 } 
+
+/* Tribute Information and Picture */
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.tribute-image {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Tribute Title */
+
+.tribute-container {
+    background-color: #000000;
+}
+.tribute-name {
+    font-size: 70px;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+.tribute-titles {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.heading-tribute-overview {
+    font-size: 43px;
+}
+
+.heading-tribute-information {
+    font-size: 18px;
+}
+
