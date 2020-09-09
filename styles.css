@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /* Tribute Navbar */
 body {
     font-family: 'Rubik', sans-serif;
@@ -95,6 +99,14 @@ display: none;
     color: white;
     padding-bottom: 15em;
 }
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: 35% 60%
+}
 } 
 
 /* Tribute Information and Picture */
@@ -180,7 +192,7 @@ display: none;
     position: relative;
     margin: 15px;
     border-bottom: 2px solid #000000;
-    z-index: -500;
+    z-index: -1;
 
 }
 
@@ -245,7 +257,7 @@ body {
 
 /* The circles on the timeline */
 .container::after {
-  content: '';
+  /* content: ''; */
   position: absolute;
   width: 25px;
   height: 25px;
@@ -306,8 +318,8 @@ body {
   background-color: white;
   position: relative;
   border-radius: 6px;
-  display: grid;
-  grid-template-columns: 35% 60%
+  /* display: grid; */
+  /* grid-template-columns: 35% 60% */
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -350,4 +362,11 @@ body {
 
 .content-movie-info {
     font-size: 12px;
+}
+
+/* Tribute Nominations */
+.nominations-tribute {
+      display: flex;
+      margin-top: 75px;
+      margin-bottom: 50px;
 }
