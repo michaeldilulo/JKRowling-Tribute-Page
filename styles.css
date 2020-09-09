@@ -107,6 +107,10 @@ display: none;
   display: grid;
   grid-template-columns: 35% 60%
 }
+  .row {
+    display: flex;
+    justify-content: center;
+}
 } 
 
 /* Tribute Information and Picture */
@@ -370,3 +374,39 @@ body {
       margin-top: 75px;
       margin-bottom: 50px;
 }
+
+/* Float four columns side by side */
+.column-tribute-nominations {
+  float: left;
+  width: 40%;
+  padding: 0 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card-tribute-nominations {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: start;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column-tribute-nominations {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.tribute-heading-fun-facts {
+    text-align: center;
+}
+
