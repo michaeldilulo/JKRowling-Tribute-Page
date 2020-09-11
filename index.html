@@ -2,577 +2,692 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Emma Watson Tribute</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Emma Watson Tribute</title>
 </head>
 
 <body>
-    <!-- Tribute Navbar -->
-    <header>
-        <div class="tribute-navbar">
-            <a href="#home" class="active">
-                <i class="fas fa-tv"></i>
-            </a>
-            <span id="tributeLinks">
-                <a href="#tributeInfo">About</a>
-                <a href="#tributeCareer">Career</a>
-                <a href="#tributeInformation">More Info</a>
-                <a href="#tributeAwards">Awards</a>
-                <a href="#contactMe">Contact Me</a>
-            </span>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a>
+  <!-- Tribute Navbar -->
+  <header>
+    <div class="tribute-navbar">
+      <a href="#home" class="active">
+        <i class="fas fa-tv"></i>
+      </a>
+      <span id="tributeLinks">
+        <a href="#tributeInfo">About</a>
+        <a href="#tributeCareer">Career</a>
+        <a href="#tributeInformation">More Info</a>
+        <a href="#tributeAwards">Awards</a>
+        <a href="#contactMe">Contact Me</a>
+      </span>
+      <a href="javascript:void(0);" class="icon" onclick="scrollBarFunction()"><i class="fas fa-bars"></i></a>
+    </div>
+  </header>
+  <main>
+    <!-- Tribute Title -->
+    <div class="tribute-container" id="home">
+      <h1 class="tribute-name">Emma Charlotte Watson</h1>
+      <h2 class="tribute-titles">English actress, model and activist</h2>
+    </div>
+    <!-- Tribute Info / Picture -->
+    <section>
+      <article id="tributeInfo">
+        <div class="tribute-image">
+          <img src="hogwartsCastle.jfif" alt="Hogwarts Castle with Road Sign" class="image" />
         </div>
-    </header>
-    <main>
-        <!-- Tribute Title -->
-        <div class="tribute-container" id="home">
-            <h1 class="tribute-name">Emma Charlotte Watson</h1>
-            <h2 class="tribute-titles">English actress, model and activist</h2>
+        <div class="tribute-overview">
+          <h2 class="heading-tribute-overview">Emma Watson Overview</h2>
+          <p class="heading-tribute-information">
+            Emma Charlotte Duerre Watson was born on April 15th, 1990 in
+            Paris, France. At a young age she attended the Stagecoach Theatre
+            Arts school at Oxford. Her natural instinct for acting was noticed
+            when she won a poetry contest for reciting "The Sea" by James
+            Reeves at the age of seven. She is best known for her role as
+            Hermione Granger in the Harry Potter series. Throughout the
+            series, her character uses her cleverness and logical thinking to
+            help her friends defeat Lord Vordermort also referred to as the
+            "Dark Lord". Harry Potter was not the only film series she was
+            brilliant in, as she has acted in other multiple films including
+            Perks of being a Wallflower, Beauty and the Beast, and Little
+            Women to name a few.
+          </p>
+          <h2 class="heading-tribute-overview">Outside of the Big Screen</h2>
+          <p class="heading-tribute-information">
+            Emma Watson has also emerged as a fashionista, with her style
+            catching the eyes of many major figures in the fashion industry.
+            In September of 2009 she announced that she was working with
+            People Tree, a fashion label that promotes fair trade. In the same
+            year she managed to excel into the world of fashion and modeling,
+            as she was chosen to be the face of Burberry's Autumn/Winter
+            collection, and again in 2010 for the Spring/Summer collection.
+            Maintaining her commitment to her education, she enrolled at Brown
+            University in the Fall of 2009. Sticking to it, she graduated with
+            her Bachelors in 2014 with an English Degree. Following her
+            graduation in the same year she was appointed a UN Women Goodwill
+            Ambassador.
+          </p>
+          <div class="tribute-buttons">
+            <button class="button button-wikipedia">
+              <a href="https://en.wikipedia.org/wiki/Emma_Watson#Personal_life" target="_blank"
+                class="button-link">Wikipedia</a>
+            </button>
+            <button class="button button-imdb">
+              <a href="https://www.imdb.com/name/nm0914612/" target="_blank" class="button-link">IMDB</a>
+            </button>
+            <button class="button button-biography">
+              <a href="https://www.biography.com/actor/emma-watson" target="_blank" class="button-link">Biography</a>
+            </button>
+          </div>
         </div>
-        <!-- Tribute Info / Picture -->
-        <section>
-            <article id="tributeInfo">
-                <div class="tribute-image">
-                    <img src="https://hips.hearstapps.com/sev.h-cdn.co/assets/cm/15/09/1280x1706/54ee6913e2cf5_-_sev-emma-watson-beauty-retro-bling-ring-s2.jpg?resize=480:*"
-                        alt="Emma Watson smiling into the camera" class="image">
-                </div>
-                <div class="tribute-overview">
-                    <h2 class="heading-tribute-overview">Emma Watson Overview</h2>
-                    <p class="heading-tribute-information">Emma Charlotte Duerre Watson was born on April 15th, 1990 in
-                        Paris, France. At a young age she
-                        attended the Stagecoach Theatre Arts school at Oxford. Her natural instinct for acting was
-                        noticed when she won a poetry contest for reciting "The Sea" by James Reeves at the age of
-                        seven. She is best known for her role as Hermione Granger in the Harry Potter series.
-                        Throughout the series, her character uses her cleverness and logical thinking to help her
-                        friends defeat Lord Vordermort also referred to as the "Dark Lord". Harry Potter was not
-                        the only film series she was brilliant in, as she has acted in other multiple films including
-                        Perks of being a Wallflower, Beauty and the Beast, and Little Women to name a few.
-                    </p>
-                    <h2 class="heading-tribute-overview">Outside of the Big Screen</h2>
-                    <p class="heading-tribute-information">Emma Watson has also emerged as a fashionista, with her style
-                        catching the eyes of many major figures
-                        in the fashion industry. In September of 2009 she announced that she was working with People
-                        Tree,
-                        a fashion label that promotes fair trade. In the same year she managed to excel into the
-                        world of fashion and modeling, as she was chosen to be the face of Burberry's Autumn/Winter
-                        collection, and again in 2010 for the Spring/Summer collection. Maintaining her commitment to
-                        her
-                        education, she enrolled at Brown University in the Fall of 2009. Sticking to it, she graduated
-                        with her Bachelors in 2014 with an English Degree. Following her graduation in the same year she
-                        was appointed a UN Women Goodwill Ambassador.
-                    </p>
-                    <div class="tribute-buttons">
-                        <button class="button button-wikipedia">
-                            <a href="https://en.wikipedia.org/wiki/Emma_Watson#Personal_life" target="_blank"
-                                class="button-link">Wikipedia</a>
-                        </button>
-                        <button class="button button-imdb">
-                            <a href="https://www.imdb.com/name/nm0914612/" target="_blank" class="button-link">IMDB</a>
-                        </button>
-                        <button class="button button-biography">
-                            <a href="https://www.biography.com/actor/emma-watson" target="_blank"
-                                class="button-link">Biography</a>
-                        </button>
-                    </div>
-                </div>
-            </article>
-        </section>
-        <!-- Tribute Quote -->
-        <section>
-            <div class="tribute-quote">
-                <p>"I don't want other people to decide who I am. I want to decide that for myself" -Emma Watson</p>
-            </div>
-        </section>
-        <!-- Movie Timeline Title -->
-        <section id="tributeCareer">
-            <div class="tribute-timeline">
-                <div class="hr-line"></div>
-                <div class="hr-icon"><i class="fas fa-film tribute-icon"><span
-                            class="hr-timeline-title">Movies</span></i>
-                </div>
-                <div class="hr-line"></div>
-            </div>
-            <!-- Movie Timeline -->
-            <div class="tribute-timeline-actual">
-                <div class="container left">
-                    <div class="content">
-                        <img src="https://cdn.cinematerial.com/p/297x/1jnlnrpx/little-women-movie-poster-md.jpg?v=1572362285"
-                            class="movie-titles" alt="Little Women cover">
-                        <h3>Little Women (2019)
-                            <br>
-                            <span class="content-movie-info">Jo March reflects back and forth on her life, telling
-                                the beloved story of the March sisters - four young women, each determined to
-                                live life on her own terms.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="content">
-                        <img src="https://in.bmscdn.com/iedb/movies/images/mobile/thumbnail/large/the-circle-et00050335-08-12-2016-10-24-45.jpg"
-                            class="movie-titles" alt="The Circle cover">
-                        <h3>The Circle (2017)
-                            <br>
-                            <span class="content-movie-info">A woman lands a dream job at a powerful tech company
-                                called the Circle, only to uncover an agenda that will affect the lives of all
-                                of humanity.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container left">
-                    <div class="content">
-                        <img src="https://cdn.collider.com/wp-content/uploads/2017/01/beauty-and-the-beast-poster.jpg"
-                            class="movie-titles" alt="Beauty and the Beast cover">
-                        <h3>Beauty and the Beast (2017)
-                            <br>
-                            <span class="content-movie-info">A selfish Prince is cursed to become a monster for the
-                                rest of his lift, unless he learns to fall in love with a beautiful young woman he
-                                keeps prisoner.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="content">
-                        <img src="https://cdn.cinematerial.com/p/136x/xeoafkh1/regression-movie-poster-sm.jpg?v=1456344826"
-                            class="movie-titles" alt="Regression cover">
-                        <h3>Regression (2015)
-                            <br>
-                            <span class="content-movie-info">A detective and a psychoanalysst uncover evidence of a
-                                satanic cult while investigation a young woman's terrifying past.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container left">
-                    <div class="content">
-                        <img src="https://cdn.cinematerial.com/p/136x/xjua12es/colonia-swiss-movie-poster-sm.jpg?v=1456066319"
-                            class="movie-titles" alt="Colonia cover">
-                        <h3>Colonia (2015)
-                            <br>
-                            <span class="content-movie-info">A young woman's desperate search for her abducted boyfriend
-                                draws her into the infamous Colonia Dignidad, a sect nobody has ever escaped from.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="content">
-                        <img src="https://cdn.cinematerial.com/p/136x/c97oupux/noah-movie-poster-sm.jpg?v=1456471034"
-                            class="movie-titles" alt="Noah cover">
-                        <h3>Noah (2014)
-                            <br>
-                            <span class="content-movie-info">Biblical drama, Noah is chosen by God to undertake a
-                                momentous mission before an apocalyptic flood cleanses the world.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container left">
-                    <div class="content">
-                        <img src="https://cdn.cinematerial.com/p/136x/rpbledss/this-is-the-end-movie-cover-sm.jpg?v=1456499521"
-                            class="movie-titles" alt="This is the End cover">
-                        <h3>This is the End (2013)
-                            <br>
-                            <span class="content-movie-info">The film centers on fictionalized versions of its cast in
-                                the wake of a global biblical apocalypse.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="content">
-                        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-movie/bling-ring.jpg?itok=asWRfMKF"
-                            class="movie-titles" alt="The Bling Ring cover">
-                        <h3>The Bling Ring (2013)
-                            <br>
-                            <span class="content-movie-info">Dive into the story based off a real gang, a group of fame
-                                obsessed teenages who use the internet to track celebrities whereabouts in order to
-                                burglarize their homes.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container left">
-                    <div class="content">
-                        <img src="https://cdn.cinematerial.com/p/136x/m5cxcmod/the-perks-of-being-a-wallflower-movie-poster-sm.jpg?v=1456424809"
-                            class="movie-titles" alt="Perks of Being a Wallflower cover">
-                        <h3>The Perks of Being a Wallflower (2012)
-                            <br>
-                            <span class="content-movie-info">A teenager named Charlie writes to an unnamed friend as he
-                                is facing challenges going through the first year of high school.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="content">
-                        <img src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-movie/myweekmarilyn-dvd.jpg?itok=3fx0lJhV"
-                            class="movie-titles" alt="My Week with Marilyn cover">
-                        <h3>My Week with Marilyn (2013)
-                            <br>
-                            <span class="content-movie-info">The story brings to life the week during the shooting
-                                of the 1957 film when Monroe was escorted around London by Clark after her
-                                husband returns to the United States.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container left">
-                    <div class="content">
-                        <img src="https://d2fizz4npx5v6x.cloudfront.net/covers/1/10291155.jpg" class="movie-titles"
-                            alt="Harry Potter and the Deathly Hollows Part 2 cover">
-                        <h3>Harry Potter and the Deathly Hollows Pt. 2 ( 2011)
-                            <br>
-                            <span class="content-movie-info">Follow the story to the end as Harry Potter's quest
-                                to find and destroy Lord Voldermort's Horcruxes in order to stop him once and
-                                for all.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="content">
-                        <img src="https://d2fizz4npx5v6x.cloudfront.net/covers/1/10191803.jpg" class="movie-titles"
-                            alt="Harry Potter and the Deathly Hollows Part 1 cover">
-                        <h3>Harry Potter and the Deathly Hollows Pt. 1 (2010)
-                            <br>
-                            <span class="content-movie-info">Return to Hogwarts with Harry Potter, Ron and Hermione
-                                as Dumbledore asks Harry to find and destroy Lord Voldermort's secret to immortality -
-                                The Horcruxes.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container left">
-                    <div class="content">
-                        <img src="https://d2fizz4npx5v6x.cloudfront.net/covers/1/10076061.jpg" class="movie-titles"
-                            alt="Harry Potter and the Half Blood Prince cover">
-                        <h3>Harry Potter and the Half Blood Prince (2009)
-                            <br>
-                            <span class="content-movie-info">This movie follows the sixth year at Hogwarts, as Harry
-                                receives a mysterious textbook, falls in love and attempts to retreat a memory that
-                                is the key to Lord Voldermort's downfall.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="content">
-                        <img src="https://img01.mgo-images.com/image/thumbnail?id=1MV1d62e842f95b6aeeae0d238f3ed3f744&ql=70&sizes=176x264"
-                            class="movie-titles" alt="The Tale of Despereaux cover">
-                        <h3>The Tale of Despereaux (2008)
-                            <br>
-                            <span class="content-movie-info">An unusually brave mouse helps to restore happiness to a
-                                kingdom after making friends with a gentlemen rat.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container left">
-                    <div class="content">
-                        <img src="https://cdn.cinematerial.com/p/136x/gw8xt4fs/ballet-shoes-dvd-movie-cover-sm.jpg?v=1456567836"
-                            class="movie-titles" alt="Ballet Shoes cover">
-                        <h3>Ballet Shoes (2007)
-                            <br>
-                            <span class="content-movie-info">The story of three orphan girls who are adopted by an
-                                eccentric explorer and his niece Sylvia Brown, in 1930s London.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="content">
-                        <img src="https://d2fizz4npx5v6x.cloudfront.net/covers/1/10038398.jpg" class="movie-titles"
-                            alt="Harry Potter and the Order of the Phoenix cover">
-                        <h3>Harry Potter and the Order of the Phoenix (2007)
-                            <br>
-                            <span class="content-movie-info">Continue the adventure for the fifth year at Hogwarts
-                                as the Ministry of Magic is in denial of Lord Voldemort's return.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container left">
-                    <div class="content">
-                        <img src="https://d2fizz4npx5v6x.cloudfront.net/covers/1/10005277.jpg" class="movie-titles"
-                            alt="Harry Potter and the Goblet of Fire cover">
-                        <h3>Harry Potter and the Goblet of Fire (2005)
-                            <br>
-                            <span class="content-movie-info">Follow Harry through his fourth year at Hogwarts, as he is
-                                chosen by the Goblet of Fire to compete in the Triwizard Tournament.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="content">
-                        <img src="https://d2fizz4npx5v6x.cloudfront.net/covers/5/5987724.jpg" class="movie-titles"
-                            alt="Harry Potter and the Prisoner of Azkaban cover">
-                        <h3>Harry Potter and the Prisoner of Azkaban (2004)
-                            <br>
-                            <span class="content-movie-info">Dive into the third year at Hogwarts, as Harry is informed
-                                that a prisoner named Sirius Black has escaped from Azkaban and intends to kill him.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container left">
-                    <div class="content">
-                        <img src="https://d2fizz4npx5v6x.cloudfront.net/covers/8/8602030.jpg" class="movie-titles"
-                            alt="Harry Potter and the Chamber of Secrets cover">
-                        <h3>Harry Potter and the Chamber of Secrets (2002)
-                            <br>
-                            <span class="content-movie-info">Continue the wizarding adventure year two of Hogwarts, as
-                                the
-                                Heir Salazar Slytherin opens the Chamber of Secrets, unleashing a monster into the
-                                school.
-                            </span></h3>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="content">
-                        <img src="https://img02.mgo-images.com/image/thumbnail?id=MMV31C2C7055DDEC14E0213AE11A80B387BF&ql=70&sizes=310x465"
-                            class="movie-titles" alt="Harry Potter and the Sorcerer's Stone cover">
-                        <h3>Harry Potter and the Sorcerer's Stone (2001)
-                            <br>
-                            <span class="content-movie-info">Dive into the magical world at Hogwarts School of
-                                Witchcraft
-                                and
-                                Wizardry,
-                                as Harry Potter discovers that he is a famous wizard and begins his education.
-                            </span></h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Nominations and Fun Facts -->
-        <div class="tribute-timeline">
-            <div class="hr-line"></div>
-            <div class="hr-icon"><i class="fas fa-star-half-alt tribute-icon"><span
-                        class="hr-timeline-title">Information</span></i>
-            </div>
-            <div class="hr-line"></div>
+      </article>
+    </section>
+    <!-- Tribute Quote -->
+    <section>
+      <div class="tribute-quote">
+        <p>
+          "I don't want other people to decide who I am. I want to decide that
+          for myself" -Emma Watson
+        </p>
+      </div>
+    </section>
+    <!-- Movie Timeline Title -->
+    <section id="tributeCareer">
+      <div class="tribute-timeline">
+        <div class="hr-line"></div>
+        <div class="hr-icon">
+          <i class="fas fa-film tribute-icon"><span class="hr-timeline-title">Movies</span></i>
         </div>
-
-        <!-- Nominations and Fun Facts -->
-        <section id="tributeInformation">
-            <div class="row">
-                <div class="column-tribute-nominations">
-                    <div class="card-tribute-nominations">
-                        <h2 class="tribute-heading-fun-facts">Nominations:</h2>
-                        <ol>
-                            <li>(2018) - Beauty and the Beast - Favorite Movie Actress</li>
-                            <li>(2017) - The Circle - Worst Actress</li>
-                            <li>(2014) - Noah - Choice Movie Actress: Drama</li>
-                            <li>(2014) - This is the End - Favorite Comedic Movie Actress</li>
-                            <li>(2013) - Perks of Being a Wallflower - Choice Movie Actress: Drama</li>
-                            <li>(2013) - Perks of Being a Wallflower - Choice Movie - Liplock</li>
-                            <li>(2013) - Perks of Being a Wallflower - Favorite Dramatic Movie Actress</li>
-                            <li>(2013) - Perks of Being a Wallflower - Best Musical Moment</li>
-                            <li>(2013) - Perks of Being a Wallflower - Best Female Performance</li>
-                            <li>(2013) - Perks of Being a Wallflower - Best Kiss</li>
-                            <li>(2012) - HP and the Deathly Hollows Part 2 - Favorite Movie Star Under 25</li>
-                            <li>(2012) - HP and the Deathly Hollows Part 2 - Best Kiss</li>
-                            <li>(2012) - HP and the Deathly Hollows Part 2 - Best On-Screen Duo</li>
-                            <li>(2012) - HP and the Deathly Hollows Part 2 - Favorite Movie Actress</li>
-                            <li>(2012) - HP and the Deathly Hollows Part 2 - Best Female Performance</li>
-                        </ol>
-                    </div>
-                </div>
-                <div class="column-tribute-nominations">
-                    <div class="card-tribute-nominations">
-                        <h2 class="tribute-heading-fun-facts">Fun Facts:</h2>
-                        <ol>
-                            <li>Even though everyone knows Emma Watson is British, she was born in Paris, France</li>
-                            <li>Emma was born on April 15th, 1990. Her full name is Emma Charlotte Duerre Watson</li>
-                            <li>Emma Watson is of British and Turkish decent, both of her parents were lawyers</li>
-                            <li>Emma Watson has three step-brothers and two step-sisters</li>
-                            <li>She wanted to be an actress at the age of 6</li>
-                            <li>Emma trained at the Oxford branch of Stagecoach Theatre Arts part-time as a kid</li>
-                            <li>At school as a kid, she was on the dance team and field hockey team as well</li>
-                            <li>Her first ever acting role was being cast as Hermione Granger in the Harry Potter series
-                            </li>
-                            <li>She auditioned seven times before she was cast at last as Hermione</li>
-                            <li>During Harry Potter, Emma and other young actors had up to five hours of tutoring a day
-                            </li>
-                            <li>Emma made it to the cover of Teen Vogue at 15, at the time she was the youngest</li>
-                            <li>Emma Watson graduated with a Bachelor's degree in English Literature in 2014</li>
-                            <li>She is known to go off to the Colorado Rockies to attend a silent treatment meditation
-                                retreat</li>
-                            <li>Journaling which she keeps up on, is one of her favorite things to do</li>
-                            <li>Emma's favorite book from the Harry Potter Series is Harry Potter and the Prisoner of
-                                Azkaban</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-            <div class="tribute-buttons-information">
-                <button class="button button-allnominations">
-                    <a href="https://www.bing.com/k/celebrities/emma-watson" target="_blank" class="button-link">More
-                        Nominations</a>
-                </button>
-                <button class="button button-morefacts">
-                    <a href="https://www.thefactsite.com/emma-watson-facts/" target="_blank" class="button-link">More
-                        Facts</a>
-                </button>
-                <button class="button button-rottentomatoes">
-                    <a href="https://www.rottentomatoes.com/celebrity/emma_watson" target="_blank"
-                        class="button-link">Rotten
-                        Tomatoes</a>
-                </button>
-            </div>
-        </section>
-
-        <div class="tribute-timeline">
-            <div class="hr-line"></div>
-            <div class="hr-icon"><i class="fas fa-star tribute-icon"><span class="hr-timeline-title">Awards</span></i>
-            </div>
-            <div class="hr-line"></div>
+        <div class="hr-line"></div>
+      </div>
+      <!-- Movie Timeline -->
+      <div class="tribute-timeline-actual">
+        <div class="container left">
+          <div class="content">
+            <img src="https://cdn.cinematerial.com/p/297x/1jnlnrpx/little-women-movie-poster-md.jpg?v=1572362285"
+              class="movie-titles" alt="Little Women cover" />
+            <h3>
+              Little Women (2019)
+              <br />
+              <span class="content-movie-info">Jo March reflects back and forth on her life, telling the
+                beloved story of the March sisters - four young women, each
+                determined to live life on her own terms.
+              </span>
+            </h3>
+          </div>
         </div>
-        <!-- Awards Section -->
-        <section id="tributeAwards">
-            <div class="row tribute-award-row">
-                <div class="column">
-                    <div class="card">
-                        <h2>2013 - MTV Trailblazer Award</h2>
-                        <p>Won MTV Trailblazer Award</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <h2>2013 - Choice Movie Actress: Drama</h2>
-                        <p>Perks of Being a Wallflower</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <h2>2013 - Favorite Dramatic Movie Actress</h2>
-                        <p>Perks of Being a Wallflower</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <h2>2013 - Best Supporting Actress</h2>
-                        <p>Perks of Being a Wallflower</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row tribute-award-row">
-                <div class="column">
-                    <div class="card">
-                        <h2>2012 - Best Performance by an Ensemable</h2>
-                        <p>Perks of Being a Wallflower</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <h2>2012 - Best On-Screen Duo</h2>
-                        <p>Harry Potter Series</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <h2>2011 - Choice Movie: Liplock</h2>
-                        <p>Harry Potter Series</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <h2>2011 - Choice Summer Movie Star: Female</h2>
-                        <p>Harry Potter Series</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row tribute-award-row">
-                <div class="column">
-                    <div class="card">
-                        <h2>2011 - Choice Movie Actress: Sci-Fi/Fantasy</h2>
-                        <p>Harry Potter Series</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <h2>2011 - Best Performance by an Ensemble</h2>
-                        <p>Harry Potter Series</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <h2>2007 - Best Performance By A Female</h2>
-                        <p>Harry Potter Series</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <h2>2002 - Youngest Artist Award - Best Performance</h2>
-                        <p>Harry Potter Series</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row tribute-award-row">
-                <div class="column">
-                    <div class="card">
-                        <h2>1996 - Best Actress</h2>
-                        <p>Won for "Breaking the Waves"</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <section id="contactMe">
-            <div class="tribute-footer">
-                <div class="tribute-footer-about">
-
-                    <h2>About Me</h2>
-                    <p>Built by <a href="https://www.linkedin.com/in/mike-dilulo/" target="_blank">Mike DiLulo</a> for a
-                        Free Code Camp
-                        Project. Full Stack Developer currently looking for
-                        work.
-                        I attended a Software Development Bootcamp from
-                        November 2019 to February 2020. I learned at the bootcamp, HTML5, CSS3, Bootstrap4, Javascript,
-                        Vue.js, Node.js, Express, MongoDB, C# and mySQL. I collaborated with team members in building
-                        multiple projects as well. Doing so, allowed me to become familiar with branching strategies
-                        and source control. I would love to connect on Linkedin and build something together.
-                    </p>
-                </div>
-                <div class="tribute-footer-about">
-                    <h2>Content Disclaimer</h2>
-                    <p>The information on this website has been mostly copied from other sites below. The credit
-                        goes to the respective authors.
-                    </p>
-                    <ul class="tribute-unordered-list">
-                        <li class="tribute-unordered-list-item"><a href="https://www.biography.com/actor/emma-watson"
-                                target="_blank">Biography</a></li>
-                        <li class="tribute-unordered-list-item"><a href="https://www.imdb.com/name/nm0914612/">IMDB</a>
-                        </li>
-                        <li class="tribute-unordered-list-item"><a
-                                href="https://www.rottentomatoes.com/celebrity/emma_watson" target="_blank">Rotten
-                                Tomatoes</a>
-                        </li>
-                        <li class="tribute-unordered-list-item"><a href="https://en.wikipedia.org/wiki/Emma_Watson"
-                                target="_blank">Wikipedia</a>
-                        </li>
-                        <li class="tribute-unordered-list-item"><a href="https://www.thefactsite.com/emma-watson-facts/"
-                                target="_blank">The Fact Site</a>
-                        </li>
-                        <li class="tribute-unordered-list-item"><a href="https://www.bing.com/k/celebrities/emma-watson"
-                                target="_blank">bing.com</a></li>
-                        <li class="tribute-unordered-list-item"><a
-                                href="https://www.brainyquote.com/quotes/emma_watson_466272"
-                                target="_blank">bbcamerica</a></li>
-                    </ul>
-
-
-                </div>
-                <div class="tribute-footer-about">
-                    <h2>Contact Me</h2>
-                    <p>I would love to collaborate and build projects together. Send me a message on Linkedin and lets
-                        get started!
-                    </p>
-                    <form>
-                        <input name="email" type="text" class="feedback-input" placeholder="Email" />
-                        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-                        <input type="submit" value="SUBMIT" />
-                    </form>
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-    <script src="https://kit.fontawesome.com/514cbcf0ae.js" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+        <div class="container right">
+          <div class="content">
+            <img
+              src="https://in.bmscdn.com/iedb/movies/images/mobile/thumbnail/large/the-circle-et00050335-08-12-2016-10-24-45.jpg"
+              class="movie-titles" alt="The Circle cover" />
+            <h3>
+              The Circle (2017)
+              <br />
+              <span class="content-movie-info">A woman lands a dream job at a powerful tech company called
+                the Circle, only to uncover an agenda that will affect the
+                lives of all of humanity.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <img src="https://cdn.collider.com/wp-content/uploads/2017/01/beauty-and-the-beast-poster.jpg"
+              class="movie-titles" alt="Beauty and the Beast cover" />
+            <h3>
+              Beauty and the Beast (2017)
+              <br />
+              <span class="content-movie-info">A selfish Prince is cursed to become a monster for the rest
+                of his lift, unless he learns to fall in love with a beautiful
+                young woman he keeps prisoner.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <img src="https://cdn.cinematerial.com/p/136x/xeoafkh1/regression-movie-poster-sm.jpg?v=1456344826"
+              class="movie-titles" alt="Regression cover" />
+            <h3>
+              Regression (2015)
+              <br />
+              <span class="content-movie-info">A detective and a psychoanalysst uncover evidence of a
+                satanic cult while investigation a young woman's terrifying
+                past.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <img src="https://cdn.cinematerial.com/p/136x/xjua12es/colonia-swiss-movie-poster-sm.jpg?v=1456066319"
+              class="movie-titles" alt="Colonia cover" />
+            <h3>
+              Colonia (2015)
+              <br />
+              <span class="content-movie-info">A young woman's desperate search for her abducted boyfriend
+                draws her into the infamous Colonia Dignidad, a sect nobody
+                has ever escaped from.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <img src="https://cdn.cinematerial.com/p/136x/c97oupux/noah-movie-poster-sm.jpg?v=1456471034"
+              class="movie-titles" alt="Noah cover" />
+            <h3>
+              Noah (2014)
+              <br />
+              <span class="content-movie-info">Biblical drama, Noah is chosen by God to undertake a
+                momentous mission before an apocalyptic flood cleanses the
+                world.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <img src="https://cdn.cinematerial.com/p/136x/rpbledss/this-is-the-end-movie-cover-sm.jpg?v=1456499521"
+              class="movie-titles" alt="This is the End cover" />
+            <h3>
+              This is the End (2013)
+              <br />
+              <span class="content-movie-info">The film centers on fictionalized versions of its cast in the
+                wake of a global biblical apocalypse.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <img
+              src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-movie/bling-ring.jpg?itok=asWRfMKF"
+              class="movie-titles" alt="The Bling Ring cover" />
+            <h3>
+              The Bling Ring (2013)
+              <br />
+              <span class="content-movie-info">Dive into the story based off a real gang, a group of fame
+                obsessed teenages who use the internet to track celebrities
+                whereabouts in order to burglarize their homes.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <img
+              src="https://cdn.cinematerial.com/p/136x/m5cxcmod/the-perks-of-being-a-wallflower-movie-poster-sm.jpg?v=1456424809"
+              class="movie-titles" alt="Perks of Being a Wallflower cover" />
+            <h3>
+              The Perks of Being a Wallflower (2012)
+              <br />
+              <span class="content-movie-info">A teenager named Charlie writes to an unnamed friend as he is
+                facing challenges going through the first year of high school.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <img
+              src="https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/product_image_aspect_switcher_170w/public/product-images/csm-movie/myweekmarilyn-dvd.jpg?itok=3fx0lJhV"
+              class="movie-titles" alt="My Week with Marilyn cover" />
+            <h3>
+              My Week with Marilyn (2013)
+              <br />
+              <span class="content-movie-info">The story brings to life the week during the shooting of the
+                1957 film when Monroe was escorted around London by Clark
+                after her husband returns to the United States.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <img src="https://d2fizz4npx5v6x.cloudfront.net/covers/1/10291155.jpg" class="movie-titles"
+              alt="Harry Potter and the Deathly Hollows Part 2 cover" />
+            <h3>
+              Harry Potter and the Deathly Hollows Pt. 2 ( 2011)
+              <br />
+              <span class="content-movie-info">Follow the story to the end as Harry Potter's quest to find
+                and destroy Lord Voldermort's Horcruxes in order to stop him
+                once and for all.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <img src="https://d2fizz4npx5v6x.cloudfront.net/covers/1/10191803.jpg" class="movie-titles"
+              alt="Harry Potter and the Deathly Hollows Part 1 cover" />
+            <h3>
+              Harry Potter and the Deathly Hollows Pt. 1 (2010)
+              <br />
+              <span class="content-movie-info">Return to Hogwarts with Harry Potter, Ron and Hermione as
+                Dumbledore asks Harry to find and destroy Lord Voldermort's
+                secret to immortality - The Horcruxes.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <img src="https://d2fizz4npx5v6x.cloudfront.net/covers/1/10076061.jpg" class="movie-titles"
+              alt="Harry Potter and the Half Blood Prince cover" />
+            <h3>
+              Harry Potter and the Half Blood Prince (2009)
+              <br />
+              <span class="content-movie-info">This movie follows the sixth year at Hogwarts, as Harry
+                receives a mysterious textbook, falls in love and attempts to
+                retreat a memory that is the key to Lord Voldermort's
+                downfall.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <img
+              src="https://img01.mgo-images.com/image/thumbnail?id=1MV1d62e842f95b6aeeae0d238f3ed3f744&ql=70&sizes=176x264"
+              class="movie-titles" alt="The Tale of Despereaux cover" />
+            <h3>
+              The Tale of Despereaux (2008)
+              <br />
+              <span class="content-movie-info">An unusually brave mouse helps to restore happiness to a
+                kingdom after making friends with a gentlemen rat.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <img src="https://cdn.cinematerial.com/p/136x/gw8xt4fs/ballet-shoes-dvd-movie-cover-sm.jpg?v=1456567836"
+              class="movie-titles" alt="Ballet Shoes cover" />
+            <h3>
+              Ballet Shoes (2007)
+              <br />
+              <span class="content-movie-info">The story of three orphan girls who are adopted by an
+                eccentric explorer and his niece Sylvia Brown, in 1930s
+                London.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <img src="https://d2fizz4npx5v6x.cloudfront.net/covers/1/10038398.jpg" class="movie-titles"
+              alt="Harry Potter and the Order of the Phoenix cover" />
+            <h3>
+              Harry Potter and the Order of the Phoenix (2007)
+              <br />
+              <span class="content-movie-info">Continue the adventure for the fifth year at Hogwarts as the
+                Ministry of Magic is in denial of Lord Voldemort's return.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <img src="https://d2fizz4npx5v6x.cloudfront.net/covers/1/10005277.jpg" class="movie-titles"
+              alt="Harry Potter and the Goblet of Fire cover" />
+            <h3>
+              Harry Potter and the Goblet of Fire (2005)
+              <br />
+              <span class="content-movie-info">Follow Harry through his fourth year at Hogwarts, as he is
+                chosen by the Goblet of Fire to compete in the Triwizard
+                Tournament.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <img src="https://d2fizz4npx5v6x.cloudfront.net/covers/5/5987724.jpg" class="movie-titles"
+              alt="Harry Potter and the Prisoner of Azkaban cover" />
+            <h3>
+              Harry Potter and the Prisoner of Azkaban (2004)
+              <br />
+              <span class="content-movie-info">Dive into the third year at Hogwarts, as Harry is informed
+                that a prisoner named Sirius Black has escaped from Azkaban
+                and intends to kill him.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <img src="https://d2fizz4npx5v6x.cloudfront.net/covers/8/8602030.jpg" class="movie-titles"
+              alt="Harry Potter and the Chamber of Secrets cover" />
+            <h3>
+              Harry Potter and the Chamber of Secrets (2002)
+              <br />
+              <span class="content-movie-info">Continue the wizarding adventure year two of Hogwarts, as the
+                Heir Salazar Slytherin opens the Chamber of Secrets,
+                unleashing a monster into the school.
+              </span>
+            </h3>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <img
+              src="https://img02.mgo-images.com/image/thumbnail?id=MMV31C2C7055DDEC14E0213AE11A80B387BF&ql=70&sizes=310x465"
+              class="movie-titles" alt="Harry Potter and the Sorcerer's Stone cover" />
+            <h3>
+              Harry Potter and the Sorcerer's Stone (2001)
+              <br />
+              <span class="content-movie-info">Dive into the magical world at Hogwarts School of Witchcraft
+                and Wizardry, as Harry Potter discovers that he is a famous
+                wizard and begins his education.
+              </span>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Nominations and Fun Facts -->
+    <div class="tribute-timeline">
+      <div class="hr-line"></div>
+      <div class="hr-icon">
+        <i class="fas fa-star-half-alt tribute-icon"><span class="hr-timeline-title">Information</span></i>
+      </div>
+      <div class="hr-line"></div>
+    </div>
+    <!-- Nominations and Fun Facts -->
+    <section id="tributeInformation">
+      <div class="row">
+        <div class="column-tribute-nominations">
+          <div class="card-tribute-nominations">
+            <h2 class="tribute-heading-fun-facts">Nominations:</h2>
+            <ol>
+              <li>(2018) - Beauty and the Beast - Favorite Movie Actress</li>
+              <li>(2017) - The Circle - Worst Actress</li>
+              <li>(2014) - Noah - Choice Movie Actress: Drama</li>
+              <li>
+                (2014) - This is the End - Favorite Comedic Movie Actress
+              </li>
+              <li>
+                (2013) - Perks of Being a Wallflower - Choice Movie Actress:
+                Drama
+              </li>
+              <li>
+                (2013) - Perks of Being a Wallflower - Choice Movie - Liplock
+              </li>
+              <li>
+                (2013) - Perks of Being a Wallflower - Favorite Dramatic Movie
+                Actress
+              </li>
+              <li>
+                (2013) - Perks of Being a Wallflower - Best Musical Moment
+              </li>
+              <li>
+                (2013) - Perks of Being a Wallflower - Best Female Performance
+              </li>
+              <li>(2013) - Perks of Being a Wallflower - Best Kiss</li>
+              <li>
+                (2012) - HP and the Deathly Hollows Part 2 - Favorite Movie
+                Star Under 25
+              </li>
+              <li>(2012) - HP and the Deathly Hollows Part 2 - Best Kiss</li>
+              <li>
+                (2012) - HP and the Deathly Hollows Part 2 - Best On-Screen
+                Duo
+              </li>
+              <li>
+                (2012) - HP and the Deathly Hollows Part 2 - Favorite Movie
+                Actress
+              </li>
+              <li>
+                (2012) - HP and the Deathly Hollows Part 2 - Best Female
+                Performance
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="column-tribute-nominations">
+          <div class="card-tribute-nominations">
+            <h2 class="tribute-heading-fun-facts">Fun Facts:</h2>
+            <ol>
+              <li>
+                Even though everyone knows Emma Watson is British, she was
+                born in Paris, France
+              </li>
+              <li>
+                Emma was born on April 15th, 1990. Her full name is Emma
+                Charlotte Duerre Watson
+              </li>
+              <li>
+                Emma Watson is of British and Turkish decent, both of her
+                parents were lawyers
+              </li>
+              <li>
+                Emma Watson has three step-brothers and two step-sisters
+              </li>
+              <li>She wanted to be an actress at the age of 6</li>
+              <li>
+                Emma trained at the Oxford branch of Stagecoach Theatre Arts
+                part-time as a kid
+              </li>
+              <li>
+                At school as a kid, she was on the dance team and field hockey
+                team as well
+              </li>
+              <li>
+                Her first ever acting role was being cast as Hermione Granger
+                in the Harry Potter series
+              </li>
+              <li>
+                She auditioned seven times before she was cast at last as
+                Hermione
+              </li>
+              <li>
+                During Harry Potter, Emma and other young actors had up to
+                five hours of tutoring a day
+              </li>
+              <li>
+                Emma made it to the cover of Teen Vogue at 15, at the time she
+                was the youngest
+              </li>
+              <li>
+                Emma Watson graduated with a Bachelor's degree in English
+                Literature in 2014
+              </li>
+              <li>
+                She is known to go off to the Colorado Rockies to attend a
+                silent treatment meditation retreat
+              </li>
+              <li>
+                Journaling which she keeps up on, is one of her favorite
+                things to do
+              </li>
+              <li>
+                Emma's favorite book from the Harry Potter Series is Harry
+                Potter and the Prisoner of Azkaban
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="tribute-buttons-information">
+        <button class="button button-allnominations">
+          <a href="https://www.bing.com/k/celebrities/emma-watson" target="_blank" class="button-link">More
+            Nominations</a>
+        </button>
+        <button class="button button-morefacts">
+          <a href="https://www.thefactsite.com/emma-watson-facts/" target="_blank" class="button-link">More Facts</a>
+        </button>
+        <button class="button button-rottentomatoes">
+          <a href="https://www.rottentomatoes.com/celebrity/emma_watson" target="_blank" class="button-link">Rotten
+            Tomatoes</a>
+        </button>
+      </div>
+    </section>
+    <div class="tribute-timeline">
+      <div class="hr-line"></div>
+      <div class="hr-icon">
+        <i class="fas fa-star tribute-icon"><span class="hr-timeline-title">Awards</span></i>
+      </div>
+      <div class="hr-line"></div>
+    </div>
+    <!-- Awards Section -->
+    <section id="tributeAwards">
+      <div class="row tribute-award-row">
+        <div class="column">
+          <div class="card">
+            <h2>2013 - MTV Trailblazer Award</h2>
+            <p>Won MTV Trailblazer Award</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h2>2013 - Choice Movie Actress: Drama</h2>
+            <p>Perks of Being a Wallflower</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h2>2013 - Favorite Dramatic Movie Actress</h2>
+            <p>Perks of Being a Wallflower</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h2>2013 - Best Supporting Actress</h2>
+            <p>Perks of Being a Wallflower</p>
+          </div>
+        </div>
+      </div>
+      <div class="row tribute-award-row">
+        <div class="column">
+          <div class="card">
+            <h2>2012 - Best Performance by an Ensemable</h2>
+            <p>Perks of Being a Wallflower</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h2>2012 - Best On-Screen Duo</h2>
+            <p>Harry Potter Series</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h2>2011 - Choice Movie: Liplock</h2>
+            <p>Harry Potter Series</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h2>2011 - Choice Summer Movie Star: Female</h2>
+            <p>Harry Potter Series</p>
+          </div>
+        </div>
+      </div>
+      <div class="row tribute-award-row">
+        <div class="column">
+          <div class="card">
+            <h2>2011 - Choice Movie Actress: Sci-Fi/Fantasy</h2>
+            <p>Harry Potter Series</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h2>2011 - Best Performance by an Ensemble</h2>
+            <p>Harry Potter Series</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h2>2007 - Best Performance By A Female</h2>
+            <p>Harry Potter Series</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <h2>2002 - Youngest Artist Award - Best Performance</h2>
+            <p>Harry Potter Series</p>
+          </div>
+        </div>
+      </div>
+      <div class="row tribute-award-row">
+        <div class="column">
+          <div class="card">
+            <h2>1996 - Best Actress</h2>
+            <p>Won for "Breaking the Waves"</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section id="contactMe">
+      <div class="tribute-footer">
+        <div class="tribute-footer-about">
+          <h2>About Me</h2>
+          <p>
+            Built by
+            <a href="https://www.linkedin.com/in/mike-dilulo/" target="_blank">Mike DiLulo</a>
+            for a Free Code Camp Project. Full Stack Developer currently
+            looking for work. I attended a Software Development Bootcamp from
+            November 2019 to February 2020. I learned at the bootcamp, HTML5,
+            CSS3, Bootstrap4, Javascript, Vue.js, Node.js, Express, MongoDB,
+            C# and mySQL. I collaborated with team members in building
+            multiple projects as well. Doing so, allowed me to become familiar
+            with branching strategies and source control. I would love to
+            connect on Linkedin and build something together.
+          </p>
+        </div>
+        <div class="tribute-footer-about">
+          <h2>Content Disclaimer</h2>
+          <p>
+            The information on this website has been mostly copied from other
+            sites below. The credit goes to the respective authors.
+          </p>
+          <ul class="tribute-unordered-list">
+            <li class="tribute-unordered-list-item">
+              <a href="https://www.biography.com/actor/emma-watson" target="_blank">Biography</a>
+            </li>
+            <li class="tribute-unordered-list-item">
+              <a href="https://www.imdb.com/name/nm0914612/">IMDB</a>
+            </li>
+            <li class="tribute-unordered-list-item">
+              <a href="https://www.rottentomatoes.com/celebrity/emma_watson" target="_blank">Rotten Tomatoes</a>
+            </li>
+            <li class="tribute-unordered-list-item">
+              <a href="https://en.wikipedia.org/wiki/Emma_Watson" target="_blank">Wikipedia</a>
+            </li>
+            <li class="tribute-unordered-list-item">
+              <a href="https://www.thefactsite.com/emma-watson-facts/" target="_blank">The Fact Site</a>
+            </li>
+            <li class="tribute-unordered-list-item">
+              <a href="https://www.bing.com/k/celebrities/emma-watson" target="_blank">bing.com</a>
+            </li>
+            <li class="tribute-unordered-list-item">
+              <a href="https://www.brainyquote.com/quotes/emma_watson_466272" target="_blank">bbcamerica</a>
+            </li>
+          </ul>
+        </div>
+        <div class="tribute-footer-about">
+          <h2>Contact Me</h2>
+          <p>
+            I would love to collaborate and build projects together. Send me a
+            message on Linkedin and lets get started!
+          </p>
+          <form>
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT" />
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://kit.fontawesome.com/514cbcf0ae.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
